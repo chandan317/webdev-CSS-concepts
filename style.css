@@ -1,17 +1,10 @@
-/*  border , margin and padding
- */
-/* Every HTML data in any website is surrounded within a box */
+/* margin collapsing : 2 margins coming together --> 
+highest px values will be picked */
 h1 {
-  border: 10px solid red;
-  /* padding-top: 50px;
-  padding-left: 50px;
-  padding-bottom: 70px;
-  padding-right: 40px; */
-  padding: 50px;
-  /* margin-top: 50px;
-  margin-left: 50px;
+  border: 1px solid black;
   margin-bottom: 50px;
-  margin-right: 500px; */
-
-  margin: 50px;
+}
+h2 {
+  border: 1px solid red;
+  margin-top: 100px;
 }
