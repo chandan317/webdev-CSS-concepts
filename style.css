@@ -1,17 +1,17 @@
-/* text-properties
+/*  border , margin and padding
  */
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
+/* Every HTML data in any website is surrounded within a box */
 h1 {
-  font-size: 70px;
-  /* FONT weight gives thickness for text */
-  font-weight: 900;
-  text-align: center;
-  /* font-style: oblique; */
-  text-decoration: underline red 20px;
-  letter-spacing: 15px;
-  word-spacing: 15px;
-  text-transform: uppercase;
-  /* text-shadow: 5px 5px 1px red; */
-  /* text -shadow x y axis blur color */
-  font-family: "caveat", cursive;
+  border: 10px solid red;
+  /* padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 70px;
+  padding-right: 40px; */
+  padding: 50px;
+  /* margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 500px; */
+
+  margin: 50px;
 }
