@@ -8,7 +8,7 @@
 
 /* 1. Static (useless) */
 /* 2.Relative --> The movemnt of top , left , right , and bottom will always happens from its original position */
-/* 3.Absolute */
+/* 3.Absolute --> The movemnt of top , left , right , and bottom will always happens from its webpage or browser*/
 /* 4.Fixed */
 /* 5.Sticky */
 
@@ -32,15 +32,12 @@ h2 {
   width: 150px;
   height: 150px;
 }
-/* Relative --> The movemnt of top , left , right , and bottom will always happens from its original position */
+/* 3.Absolute --> The movemnt of top , left , right , and bottom will always happens from its webpage or browser*/
 h3 {
   border: 1px solid greenyellow;
   background-color: greenyellow;
   height: 150px;
   width: 150px;
-  position: relative;
-  left: 40px;
-  top: 0px;
-  bottom: 20px;
-  right: 20px;
+  position: absolute;
+  right: 0px;
 }
