@@ -7,7 +7,7 @@
 /* 5 types */
 
 /* 1. Static (useless) */
-/* 2.Relative */
+/* 2.Relative --> The movemnt of top , left , right , and bottom will always happens from its original position */
 /* 3.Absolute */
 /* 4.Fixed */
 /* 5.Sticky */
@@ -37,6 +37,7 @@ h2 {
   right: 0px;
   bottom: 50px;
 }
+/* Relative --> The movemnt of top , left , right , and bottom will always happens from its original position */
 h3 {
   border: 1px solid greenyellow;
   background-color: greenyellow;
