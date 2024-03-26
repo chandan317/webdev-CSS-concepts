@@ -13,21 +13,36 @@
 /* 5.Sticky */
 
 /*  Whenever we use any of the position properties, we can control left, right , top and bottom*/
-div {
+
+/* If we use only absolute position without relative position, that absolute will have
+left, right, top and bottom which always work from webpage. */
+/* If we use absolute(child) and relative( parent, grandparent,.. ) position together,
+that absolute will have left, right, top and bottom will always work from 
+parent which is made relative */
+
+#outerrouter {
   border: 1px solid lightblue;
+
   background-color: lightblue;
   width: 800px;
-  height: 200px;
+  height: 500px;
+}
+#outer {
+  border: 1px solid gray;
+
+  background-color: gray;
+  width: 500px;
+  height: 300px;
   display: flex;
   position: relative;
 }
-h1 {
+#first {
   border: 1px solid brown;
   background-color: brown;
   width: 150px;
   height: 150px;
 }
-h2 {
+#second {
   border: 1px solid blue;
   background-color: blue;
   width: 150px;
@@ -35,8 +50,8 @@ h2 {
   position: absolute;
   right: 0px;
 }
-/* 3.Absolute --> The movemnt of top , left , right , and bottom will always happens from its webpage or browser*/
-h3 {
+
+#third {
   border: 1px solid greenyellow;
   background-color: greenyellow;
   height: 150px;
