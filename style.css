@@ -20,40 +20,15 @@ left, right, top and bottom which always work from webpage. */
 that absolute will have left, right, top and bottom will always work from 
 parent which is made relative */
 
-#outerrouter {
-  border: 1px solid lightblue;
-
-  background-color: lightblue;
-  width: 800px;
-  height: 500px;
+a {
+  font-size: 40px;
+  text-decoration: none;
+  margin: 25px;
 }
-#outer {
-  border: 1px solid gray;
-
-  background-color: gray;
-  width: 500px;
-  height: 300px;
-  display: flex;
-  position: relative;
-}
-#first {
-  border: 1px solid brown;
-  background-color: brown;
-  width: 150px;
-  height: 150px;
-}
-#second {
-  border: 1px solid blue;
-  background-color: blue;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  right: 0px;
-}
-
-#third {
-  border: 1px solid greenyellow;
-  background-color: greenyellow;
-  height: 150px;
-  width: 150px;
+#navbar {
+  border: 2px solid blue;
+  padding: 40px;
+  background-color: springgreen;
+  position: fixed;
+  top: 0px;
 }
