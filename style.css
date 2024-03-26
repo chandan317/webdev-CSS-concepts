@@ -29,6 +29,7 @@ a {
   border: 2px solid blue;
   padding: 40px;
   background-color: springgreen;
-  position: fixed;
-  top: 0px;
+  position: sticky;
+  top: 50px;
+  bottom: 0px;
 }
