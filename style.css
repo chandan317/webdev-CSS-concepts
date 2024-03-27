@@ -1,22 +1,23 @@
-/* Pseudo classes : are used to define some special state to our HTML data */
-/* :  */
-a {
-  text-decoration: none;
+/* h1 {
+  color: orange;
+} */
+/* h1:first-child {
+  color: blue;
 }
-/* :hover  exactly work at the time of keeping cursor on link*/
-a:hover {
-  border: 1px solid black;
-  padding: 5px;
+h1:last-child {
+  color: blueviolet;
 }
-/*  exactly at the time of clicking the link */
-a:active {
-  background-color: red;
+h1:nth-child(2) {
+  color: green;
 }
-/* once the link is clicked and visited */
-a:visited {
-  color: magenta;
+h1:nth-child(3) {
+  color: tomato;
+} */
+
+/* target odd tag  n starts from 0 */
+h1:nth-child(2n-1) {
+  color: chartreuse;
 }
-/* if the link is not visited */
-a:link {
-  background-color: green;
+h1:nth-child(2n) {
+  color: teal;
 }
