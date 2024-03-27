@@ -1,35 +1,22 @@
-/*  Position properties */
-
-/*  no css program without position properties atleast 1 is used */
-
-/* If we want to position our HTML data in anywhere on the website. */
-
-/* 5 types */
-
-/* 1. Static (useless) */
-/* 2.Relative --> The movemnt of top , left , right , and bottom will always happens from its original position */
-/* 3.Absolute --> The movemnt of top , left , right , and bottom will always happens from its webpage or browser*/
-/* 4.Fixed */
-/* 5.Sticky */
-
-/*  Whenever we use any of the position properties, we can control left, right , top and bottom*/
-
-/* If we use only absolute position without relative position, that absolute will have
-left, right, top and bottom which always work from webpage. */
-/* If we use absolute(child) and relative( parent, grandparent,.. ) position together,
-that absolute will have left, right, top and bottom will always work from 
-parent which is made relative */
-
+/* Pseudo classes : are used to define some special state to our HTML data */
+/* :  */
 a {
-  font-size: 40px;
   text-decoration: none;
-  margin: 25px;
 }
-#navbar {
-  border: 2px solid blue;
-  padding: 40px;
-  background-color: springgreen;
-  position: sticky;
-  top: 50px;
-  bottom: 0px;
+/* :hover  exactly work at the time of keeping cursor on link*/
+a:hover {
+  border: 1px solid black;
+  padding: 5px;
+}
+/*  exactly at the time of clicking the link */
+a:active {
+  background-color: red;
+}
+/* once the link is clicked and visited */
+a:visited {
+  color: magenta;
+}
+/* if the link is not visited */
+a:link {
+  background-color: green;
 }
