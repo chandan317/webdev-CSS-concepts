@@ -1,17 +1,25 @@
-/* input:enabled {
-  background-color: aqua;
-}
-input:disabled {
-  background-color: brown;
+/* pseudoclasses are used to apply some SPECIAL STATE
+ to an entire HTML data ==> : */
+/* pseudoelements are also  used to 
+apply some special to the part of HTML data ==> :: */
+
+/* p::first-letter {
+  font-size: 50px;
+  color: crimson;
+} */
+/* p::first-line {
+  color: red;
+  font-size: 50px;
 } */
 
-input:focus {
-  background-color: blanchedalmond;
-  color: white;
+/* after and before pseudo elementsplay an important role
+when work with CSS animations. */
+/* h1::after {
+  content: " easy";
+} */
+h1::before {
+  content: "Learning ";
 }
-input:valid {
-  color: green;
-}
-input:invalid {
+h1::selection {
   color: red;
 }
