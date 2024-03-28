@@ -1,3 +1,17 @@
-div:nth-child(2n) {
+/* input:enabled {
+  background-color: aqua;
+}
+input:disabled {
+  background-color: brown;
+} */
+
+input:focus {
+  background-color: blanchedalmond;
+  color: white;
+}
+input:valid {
+  color: green;
+}
+input:invalid {
   color: red;
 }
